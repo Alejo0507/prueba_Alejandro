@@ -1,0 +1,14 @@
+{
+    "1": {
+        "id": 1,
+        "nombre": "1",
+        "cargo": "1",
+        "salario": {
+            "dias_tra": 1,
+            "horas": 1,
+            "valor_dia": 3,
+            "descuentos": 3,
+            "prestamo": 3
+        }
+    }
+}

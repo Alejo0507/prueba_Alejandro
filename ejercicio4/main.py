@@ -1,5 +1,5 @@
-
+import modulos.menu as  me
 
 if __name__ == "__menu__":
    pass 
-menu()
+me.menu()
