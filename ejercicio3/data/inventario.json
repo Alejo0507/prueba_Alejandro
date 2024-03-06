@@ -1,0 +1,16 @@
+{
+    "1": {
+        "id": "1",
+        "nombre": "cocacola",
+        "valor": "3000",
+        "stockmin": 2,
+        "stockmax": 50
+    },
+    "2": {
+        "id": "2",
+        "nombre": "papas",
+        "valor": "2500",
+        "stockmin": 2,
+        "stockmax": 68
+    }
+}

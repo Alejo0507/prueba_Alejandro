@@ -1,19 +1,9 @@
 import json
 import os
 
-
-def check_json(archivo: str, data):
-  if os.path.isfile(archivo):
-    with open(archivo, "r") as file:
-      return json.load(file)
-  else:
-    with open(archivo, "w") as file:
-      json.dump(data, file, indent=2)
-      return data
-
-def update_json(archivo, data):
-  with open("data/"+archivo, "w+") as file:
-    json.dump(data, file, indent=2, ensure_ascii=False)
+def update_json(inventario:str ,data):
+  with open("ejercicio3/data/inventario.json", "w+") as file:
+    json.dump(data, file, indent=4, ensure_ascii=False)
 
 
 def add_productos(data):
@@ -26,7 +16,7 @@ def add_productos(data):
 
     producto = {
       'id': id,
-      'name': name,
+      'nombre': name,
       'valor':value,
       'stockmin':min,
       'stockmax': max,

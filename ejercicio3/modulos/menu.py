@@ -1,11 +1,12 @@
 
 import modulos.corefile as co
-data={}
-inventario={}
+inventario={
+   
+
+}
+
 def menu():
-        co.check_json(inventario,data)
-        
-    
+       
         op=0
         while op!=2:
 
@@ -22,7 +23,7 @@ def menu():
             op=int(input("elija una opcion\n>>"))
 
             if op==1:
-               co.add_productos(data)
+               co.add_productos(inventario)
             elif op==2:
                pass
             
